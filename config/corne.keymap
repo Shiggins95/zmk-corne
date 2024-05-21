@@ -11,9 +11,9 @@
   macros {
       refresh_sim: refresh_sim {
           compatible = "zmk,behavior-macro";
-          #binding-cells = <41>;
+          #binding-cells = <0>;
           bindings
-              = <&macro_press &kp LEFT_ALT &kp LEFT_GUI &kp Z>
+              = <&macro_tap &kp LEFT_ALT &kp LEFT_GUI &kp Z>
               ;
       };
   };
