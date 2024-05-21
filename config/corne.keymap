@@ -13,9 +13,9 @@
 
     combo_RefreshSim {
       timeout-ms = <50>;
-      key-positions = <>;
-      layers = <>;
-      bindings = <&sk SPC>;
+      key-positions = <12 25 36>;
+      layers = <BASE LOWER RAISE BLUETOOTH>;
+      bindings = <&kp RALT>;
     };
   };
 
@@ -42,7 +42,7 @@
 
     Bluetooth_layer {
       bindings = <
-        &none &none &none &none &none &none &none &none &none &none &none &none &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &none &none &none &none &none &none &bt BT_PRV &bt BT_NXT &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none
+        &none &none &none &none &none &none &none &none &none &none &none &none &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &none &none &none &none &none &none &bt BT_PRV &bt BT_NXT &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &kp RIGHT_ALT
       >;
     };
 
