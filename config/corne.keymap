@@ -13,7 +13,7 @@
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           bindings
-              = <&macro_tap &kp LEFT_CONTROL &kp LEFT_GUI &kp Z>
+              = <&macro_tap &kp LCTRL &kp LGUI &kp Z>
               ;
       };
   };
