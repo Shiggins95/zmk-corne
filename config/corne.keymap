@@ -39,7 +39,7 @@
 
     Raise_layer {
       bindings = <
-        &kp TAB &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp DOLLAR &kp PERCENT &kp CARET &kp AMPERSAND &kp ASTERISK &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp BACKSPACE &kp LEFT_CONTROL &kp QUESTION &kp DOUBLE_QUOTES &kp SINGLE_QUOTE &kp GRAVE &none &kp MINUS &kp EQUAL &kp BACKSLASH &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp COLON &kp LEFT_SHIFT &trans &trans &trans &trans &trans &kp UNDERSCORE &kp PLUS &kp PIPE &kp LT &kp GT &kp TILDE &kp LEFT_GUI &mo BLUETOOTH &kp SPACE &kp RETURN &trans &refresh_sim
+        &kp TAB &kp EXCLAMATION &kp AT_SIGN &kp NON_US_HASH &kp DOLLAR &kp PERCENT &kp CARET &kp AMPERSAND &kp ASTERISK &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp BACKSPACE &kp LEFT_CONTROL &kp QUESTION &kp DOUBLE_QUOTES &kp SINGLE_QUOTE &kp GRAVE &kp HASH &kp MINUS &kp EQUAL &kp BACKSLASH &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp COLON &kp LEFT_SHIFT &trans &trans &trans &trans &trans &kp UNDERSCORE &kp PLUS &kp PIPE &kp LT &kp GT &kp TILDE &kp LEFT_GUI &mo BLUETOOTH &kp SPACE &kp RETURN &trans &refresh_sim
       >;
     };
 
